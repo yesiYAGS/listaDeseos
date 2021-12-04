@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <a href="logout">Logout</a>
+    <h1>HELLO {{user.userame}}</h1>
+    <h4>Your wish list :</h4>
+    <table>
+        <tr>
+          <th>Item</th>
+          <th>Added by</th> 
+          <th>Date Added</th>
+          <th>Action</th>
+        </tr>
+        <tr>
+          <td> <a href="wish_items">iphone 9</a></td>
+          <td>Mark</td> 
+          <td>Jan 01 2015</td>
+          <td><a href="">remove from my wishlist</a></td>
+        </tr>
+        <tr>
+            <td> <a href="">Mac pro</a></td>
+            <td>Jeffrey</td> 
+            <td>Jan 26 2015</td>
+            <td><a href="">remove from my wishlist</a></td>
+        </tr>
+    </table>
+
+    <h4>Other Users' Wish List</h4>
+    <table>
+        <tr>
+          <th>Item</th>
+          <th>Added by</th> 
+          <th>Date Added</th>
+          <th>Action</th>
+        </tr>
+        <tr>
+          <td> <a href="wish_items">iphone 9</a></td>
+          <td>Mark</td> 
+          <td>Jan 01 2015</td>
+          <td><a href="">Add to my wishlist</a></td>
+        </tr>
+        <tr>
+            <td> <a href="">Mac pro</a></td>
+            <td>Jeffrey</td> 
+            <td>Jan 26 2015</td>
+            <td><a href="">add to my wishlist</a></td>
+        </tr>
+    </table>
+    <a href="wish_items_create">Add Items</a>
+</body>
+</html>
